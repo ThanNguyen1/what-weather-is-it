@@ -14,9 +14,21 @@
     <!-- Header with Weather Dashboard Displayed-->
     <header class="hero">
         <h1> Weather Dashboard</h1>
-      </header>
+    </header>
     <!-- Search for a City form-->
+    <main class="flex-row justify-space-between">
+        <div class="col-12 col-md-4">
+          <div class="card">
+            <h2 class="card-header">Search for a City:</h2>
+            <form id="search-form" class="card-body">
+              <label class="form-label" for="username"></label>
+              <input name="city" id="cityname" type="text" placeholder="San Diego" autofocus="true" class="form-input" />
+              <button type="submit" class="btn">Search</button>
+            </form>
+          </div>
+
     <!-- Displays City weather-->
+    <!-- Displays City 5-day forcast-->
     <!-- Displays previous searches -->
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://code.jquery.com/jquery-1.12.4.min.js" 
